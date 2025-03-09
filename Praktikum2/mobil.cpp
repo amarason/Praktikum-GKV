@@ -142,7 +142,7 @@ int main(int argc, char* argv[]) {
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
     glutCreateWindow("Tugas Pertemuan 2 Amara Putri Soniaji");
     glutDisplayFunc(mobil);
- 	glClearColor(188/255.0, 204/255.0, 220/255.0, 1);
+    glClearColor(188/255.0, 204/255.0, 220/255.0, 1);
     glutMainLoop();
     return 0;
 }
