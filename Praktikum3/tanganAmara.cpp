@@ -141,8 +141,8 @@ void keyboard(unsigned char key, int x, int y) {
         case 'R': kelingking2 = (kelingking2 - 5 + 90) % 90; break;
 
         case 27: 
-			exit(0); 
-			break;
+		exit(0); 
+		break;
     }
     glutPostRedisplay();
 }
